@@ -1,15 +1,13 @@
 
 
-import com.sun.jdi.event.ExceptionEvent;
 import javafx.util.Pair;
 import org.reflections.Reflections;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Type;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
 
 interface HotDrink {
     void consume();
@@ -55,14 +53,16 @@ class CoffeeFactory implements HotDrinkFactory {
     }
 }
 
+
+
 class HotDrinkMachine {
     private List<Pair<String, HotDrinkFactory>> namedFactories
             = new ArrayList<>();
 
     public HotDrinkMachine() throws Exception {
-        Set<Class<? extends HotDrinkFactory>> types =
-                new Reflections("")
-                        .getSubTypesOf(HotDrinkFactory.class);
+
+        Set<Class<? extends HotDrinkFactory>> types = new Reflections("")
+                .getSubTypesOf(HotDrinkFactory.class);
 
         for(Class<? extends HotDrinkFactory> type : types) {
             namedFactories.add(new Pair<>(
