@@ -1,3 +1,5 @@
+import java.io.Serializable;
+
 public class SingltonExample {
 
 
@@ -11,9 +13,7 @@ public class SingltonExample {
 }
 
 
-
-class BasicSingleton
-{
+class BasicSingleton implements Serializable {
 
 
     private BasicSingleton() {
@@ -22,15 +22,14 @@ class BasicSingleton
 
     private static final BasicSingleton INSTANCE = new BasicSingleton();
 
-    public static BasicSingleton getInstance()
-    {
+    public static BasicSingleton getInstance() {
         return INSTANCE;
 
     }
 
 
-
     private int value = 0;
+
     public int getValue() {
         return value;
     }
@@ -38,7 +37,6 @@ class BasicSingleton
     public void setValue(int value) {
         this.value = value;
     }
-
 
 
 }

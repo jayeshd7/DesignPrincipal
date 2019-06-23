@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cb0bffb-c3fe-4191-bc18-1b7e34c3c072" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/reflections_0_9_10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPrincipal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/designPrincipal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPrincipal/CoordinateSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPrincipal/CoordinateSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPrincipal/FactoryDesign.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPrincipal/FactoryDesign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPrincipal/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPrincipal/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DemoAbstructFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DemoAbstructFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingltonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingltonExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SRP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ORP.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,16 +50,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SingltonExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="328">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="e#392#393#0" expanded="true" />
                 <element signature="e#420#421#0" expanded="true" />
                 <element signature="e#459#460#0" expanded="true" />
                 <element signature="e#493#494#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FacadeDesign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#966#976#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,12 +151,14 @@
         <option value="$PROJECT_DIR$/src/DemoAbstructFactory.java" />
         <option value="$PROJECT_DIR$/src/BaiscSinglton.java" />
         <option value="$PROJECT_DIR$/src/SingltonExample.java" />
+        <option value="$PROJECT_DIR$/src/FacadeDesign.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -189,10 +187,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560797479146" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561311456063" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingltonExample">
+  <component name="RunManager" selected="Application.FacadeDesign">
     <configuration name="DemoAbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DemoAbstractFactory" />
       <module name="designPrincipal" />
@@ -214,15 +213,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryDesign" />
+    <configuration name="FacadeDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FacadeDesign" />
       <module name="designPrincipal" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MovieMain" />
+    <configuration name="FactoryDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryDesign" />
       <module name="designPrincipal" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,18 +243,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ORP" />
-      <item itemvalue="Application.MovieMain" />
       <item itemvalue="Application.FactoryDesign" />
       <item itemvalue="Application.DemoAbstractFactory" />
       <item itemvalue="Application.SingltonExample" />
+      <item itemvalue="Application.FacadeDesign" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FacadeDesign" />
         <item itemvalue="Application.SingltonExample" />
         <item itemvalue="Application.DemoAbstractFactory" />
         <item itemvalue="Application.ORP" />
         <item itemvalue="Application.FactoryDesign" />
-        <item itemvalue="Application.MovieMain" />
       </list>
     </recent_temporary>
   </component>
@@ -450,13 +449,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SingltonExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="328">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="e#392#393#0" expanded="true" />
             <element signature="e#420#421#0" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacadeDesign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#966#976#0" expanded="true" />
           </folding>
         </state>
       </provider>
