@@ -70,19 +70,13 @@ class Console{
 
 
 
-    private List<Viewport>viewports = new ArrayList<Viewport>();
-
     int width;
     int height;
+    private List<Viewport>viewports = new ArrayList<Viewport>();
 
     public Console(int width, int height) {
         this.width = width;
         this.height = height;
-    }
-
-    public void addViewPort(Viewport viewport){
-    viewports.add(viewport);
-
     }
 
     public static Console newConsole(int width,int height){
@@ -92,6 +86,11 @@ class Console{
         console.addViewPort(viewport);
         console.render();
         return console;
+
+    }
+
+    public void addViewPort(Viewport viewport){
+    viewports.add(viewport);
 
     }
 
