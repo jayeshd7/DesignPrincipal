@@ -3,7 +3,6 @@ import java.util.*;
 public class JavaStreamExample {
     public static void main(String[] args) {
 
-
         String [] countries = {"India", "Switzerland","India", "Italy"};
         Integer [] number = {1,2,2,2,3};
 
